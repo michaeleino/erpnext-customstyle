@@ -1,0 +1,5 @@
+{
+	"css/custom_app.css": [
+		"public/css/custom.css"
+	]
+}
