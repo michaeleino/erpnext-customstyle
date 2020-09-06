@@ -1,3 +1,5 @@
 /*this file created by Michael F for custom css overrides*/
 .form-section { border-color: grey !important; }
 .form-section .h6.uppercase { color: maroon; }
+.control-label, .grid-heading-row { color: #36414c !important; }
+.form-section .form-section-heading { color: darkblue !important; }
