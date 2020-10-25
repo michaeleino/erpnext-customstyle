@@ -21,9 +21,7 @@
     border-bottom: 1px dashed gray !important;
     padding: 5px 0 !important;
 }
-.list-item.indicator::before {
-    margin: 0 4px 0 0 !important;
-}
+
 /*end whole system styles*/
 
 /*start rtl styles*/
@@ -99,6 +97,15 @@
     &:nth-child(4n) {
         border-left: none !important;
         }
+  }
+  .list-item {
+    padding-right: 15px !important;
+    &.indicator::before {
+        margin: 0 4px 0 0 !important;
+    }
+  }
+  .list-item__content {
+    margin-left: 15px !important;
   }
 }
 /*end of rtl styles*/
