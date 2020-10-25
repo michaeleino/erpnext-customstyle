@@ -4,7 +4,8 @@
 /* common vars*/
 
 /*whole system styles*/
-.form-section, .list-item-table { border-color: @bordercolors !important; }
+.form-section { border-color: @bordercolors !important; }
+.list-item-table .pos-items-wrapper { border-color: 1px solid @bordercolors !important;}
 .image-view-container .image-view-item {
   border-bottom: 1px solid @bordercolors;
   border-right: 1px solid @bordercolors;
@@ -84,10 +85,11 @@
   }
   /*pos*/
   .image-view-container .image-view-item {
-    border-left: 1px solid @bordercolors;
-    :nth-child(4n) {
-      border-left: none !important;
+  :nth-child(4n) {
+    border-left: none !important;
     }
+    border-left: 1px solid @bordercolors;
+    border-right: unset !important;
   }
 }
 /*end of rtl styles*/
