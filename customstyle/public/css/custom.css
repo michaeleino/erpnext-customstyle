@@ -3,3 +3,15 @@
 .form-section .h6.uppercase { color: maroon; }
 .control-label, .grid-heading-row { color: #36414c !important; }
 .form-section .form-section-heading { color: darkblue !important; }
+
+/*reports tag filters in rtl*/
+.tag-groupby-area {
+  left: 0 !important;
+  padding: 10px 10px 10px 150px !important;
+ }
+.filter-list .sort-selector {
+  left: 0 !important;
+}
+.filter-list .tag-filters-area {
+  padding: 10px 10px 0 150px !important;
+}
