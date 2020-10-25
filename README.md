@@ -11,12 +11,20 @@ installing App to ERPNext
 use bench exlude-app for all apps that needed not to be updated for ex:
 
    `bench exclude-app erpnext`
-   
+
    `bench exclude-app frappe`
 
-then run 
+then run
 
 `bench update`
+
+OR
+
+`git -C apps/customstyle/customstyle pull`
+
+then
+
+`bench update --build --no-backup`
 
 #### License
 
