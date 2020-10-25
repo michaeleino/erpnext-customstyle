@@ -18,6 +18,7 @@
   white-space: unset !important;
 }
 .quantity.list-item__content .input-group input {
+  text-align: center !important;
   /* Firefox */
     -moz-appearance: textfield !important;
   /* Chrome, Safari, Edge, Opera */
@@ -34,7 +35,17 @@
   .list-item {
     border-bottom: 1px dashed gray !important;
     padding: 5px 0 5px 10px !important;
+    .item-name {
+      flex: 1.5 !important;
+    }
+    .quantity {
+      flex: 1 !important;
+    }
+    .discount {
+      flex: 0.5 !important;
+    }
   }
+}
   .empty-state {
     padding-top: 50px !important;
   }
@@ -117,7 +128,7 @@
         }
   }
   .list-item {
-    padding-right: 5px 10px 5px 0 !important;
+    padding: 5px 10px 5px 0 !important;
     &.indicator::before {
         margin: 0 0 0 4px !important;
     }
