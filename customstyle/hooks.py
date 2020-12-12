@@ -17,7 +17,7 @@ app_include_js = "/assets/js/custom_app.js"
 
 
 
-on_session_creation = 'app.overrides.setup_session_defaults'
+on_session_creation = 'customstyle.overrides.setup_session_defaults'
 
 # Includes in <head>
 # ------------------
