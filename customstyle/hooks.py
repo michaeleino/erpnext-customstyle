@@ -15,6 +15,8 @@ app_license = "MIT"
 app_include_css = "/assets/css/custom_app.css"
 app_include_js = "/assets/js/custom_app.js"
 
+
+on_session_creation = ["frappe.ui.toolbar.setup_session_defaults();"]
 # Includes in <head>
 # ------------------
 
