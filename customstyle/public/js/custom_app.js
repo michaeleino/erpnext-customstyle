@@ -3,7 +3,7 @@
 //     // frappe.set_route("frappe.ui.toolbar.setup_session_defaults();");
 //     frappe.ui.toolbar.setup_session_defaults();
 // });
-$(document).on("notify_on_every_login", function () {
+$(document).on("app_ready", function () {
     // custom logic
     // frappe.set_route("frappe.ui.toolbar.setup_session_defaults();");
     frappe.ui.toolbar.setup_session_defaults();
