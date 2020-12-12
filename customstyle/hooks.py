@@ -13,6 +13,7 @@ app_license = "MIT"
 
 #app_include_css = "assets/customstyle/css/custom.css"
 app_include_css = "/assets/css/custom_app.css"
+app_include_js = "/assets/js/custom_app.js"
 
 # Includes in <head>
 # ------------------
@@ -133,4 +134,3 @@ app_include_css = "/assets/css/custom_app.css"
 # exempt linked doctypes from being automatically cancelled
 #
 # auto_cancel_exempted_doctypes = ["Auto Repeat"]
-

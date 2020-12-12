@@ -1,5 +1,8 @@
 {
 	"css/custom_app.css": [
 		"public/less/custom.less"
+	],
+	"js/custom_app.js": [
+		"public/js/custom.js"
 	]
 }
