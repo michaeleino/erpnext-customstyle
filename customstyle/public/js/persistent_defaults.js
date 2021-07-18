@@ -7,13 +7,14 @@ $(document).on('app_ready', function() {
               'method': "frappe.client.get_list",
               'args': {
                   'doctype': "Persistent Session Setting",
-                  'filters': {'users': frappe.session.user},
+                  'filters': [[ users, ‘IN’, frappe.session.user ]],
+                  // {'users': frappe.session.user},
                   'fields': ["company"]
               },
               'callback': function(response) {
                   if (response.message) {
                       response.message.forEach(function (setting) {
-                          var key = setting.Key1.toLowerCase().replaceAll(" ", "_");
+                          // var key = setting.Key1.toLowerCase().replaceAll(" ", "_");
                           frappe.defaults.set_user_default_local(Company, setting.company);
                       });
                   }
