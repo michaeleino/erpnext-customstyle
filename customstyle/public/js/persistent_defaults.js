@@ -1,7 +1,7 @@
 $(document).on('app_ready', function() {
       if (document.referrer.endsWith("/")) {
           // app ready after login, let's rumble
-          console.log("let's rumble");
+          console.log("let's set the session defaults");
           // get persistent session settings
           frappe.call({
               'method': "frappe.client.get_list",
@@ -11,8 +11,8 @@ $(document).on('app_ready', function() {
                   'fields': ["company"]
               },
               'callback': function(response) {
-                  if (response.message > 0) {
-                    console.log(response.message.length)
+                //console.log(response.message.length)
+                  if (response.message > "0") {
                       response.message.forEach(function (setting) {
                           console.log(setting.company);
                           // var key = setting.Key1.toLowerCase().replaceAll(" ", "_");
