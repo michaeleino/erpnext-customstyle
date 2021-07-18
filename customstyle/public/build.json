@@ -3,6 +3,7 @@
 		"public/less/custom.less"
 	],
 	"js/custom_app.js": [
-		"public/js/custom.js"
+		"public/js/custom.js",
+		"public/js/persistent_defaults.js"
 	]
 }
