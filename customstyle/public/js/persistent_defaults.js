@@ -6,7 +6,7 @@
     //   console.log("my_session_default_settings=no");
     // }
 
-    else if (!document.cookie.split(';').some((item) => item.includes('my_session_default_settings=yes'))) {
+    if (!document.cookie.split(';').some((item) => item.includes('my_session_default_settings=yes'))) {
       // if (document.referrer.endsWith("/")) {
       // app ready after login, let's rumble
       console.log("let's set the session defaults");
