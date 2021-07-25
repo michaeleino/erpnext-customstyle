@@ -15,6 +15,7 @@ app_license = "MIT"
 app_include_css = "/assets/css/custom_app.css"
 app_include_js = "/assets/js/custom_app.js"
 
+web_include_js = "/assets/customstyle/js/customstyle.js"
 
 
 # boot_session = "customstyle.overrides.start_session_defaults"
