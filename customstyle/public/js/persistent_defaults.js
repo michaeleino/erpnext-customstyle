@@ -12,7 +12,7 @@ $(document).on('app_ready', function() {
         'filters': [
           ["Employee", "user_id", "=", frappe.session.user]
         ],
-        'fields': ["company"]
+        'fields': ["company","default_letter_head"]
       },
       'callback': function(response) {
         //console.log(response.message.length)
@@ -26,7 +26,8 @@ $(document).on('app_ready', function() {
               method: 'frappe.core.doctype.session_default_settings.session_default_settings.set_session_default_values',
               args: {
                 default_values: {
-                  "company": setting.company
+                  "company": setting.company,
+                  "letter_head": setting.default_letter_head
                 },
               },
               callback: function(data) {
