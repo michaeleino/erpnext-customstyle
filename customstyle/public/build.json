@@ -1,12 +1,5 @@
 {
 	"css/custom_app.css": [
 		"public/less/custom.less"
-	],
-	"js/custom_app.js": [
-		"public/js/custom.js",
-		"public/js/persistent_defaults.js"
-	],
-	"js/clear_persistent_defaults.js": [
-		"public/js/clear_persistent_defaults.js"
 	]
 }

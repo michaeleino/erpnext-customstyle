@@ -13,9 +13,9 @@ app_license = "MIT"
 
 #app_include_css = "assets/customstyle/css/custom.css"
 app_include_css = "/assets/css/custom_app.css"
-app_include_js = "/assets/js/custom_app.js"
+# app_include_js = "/assets/js/custom_app.js"
 
-web_include_js = "/assets/customstyle/js/clear_persistent_defaults.js"
+# web_include_js = "/assets/customstyle/js/clear_persistent_defaults.js"
 
 
 # boot_session = "customstyle.overrides.start_session_defaults"
